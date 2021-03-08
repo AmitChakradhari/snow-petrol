@@ -1,3 +1,4 @@
 # snow-petrol
 snow fall animation using Core Animation
-![Uploading snow-animation.gif…]()
+
+![snowfall image](https://github.com/AmitChakradhari/snow-petrol/blob/master/SnowSceneWithCoreAnimation/Assets/snow-animation.gif)
