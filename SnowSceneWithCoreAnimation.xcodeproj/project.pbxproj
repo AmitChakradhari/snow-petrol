@@ -16,6 +16,7 @@
 		7DAEED6E21C8F5AF00363CD1 /* SnowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAEED6D21C8F5AF00363CD1 /* SnowView.swift */; };
 		7DAEED7021C8FAF800363CD1 /* snowParticle.png in Resources */ = {isa = PBXBuildFile; fileRef = 7DAEED6F21C8FAF800363CD1 /* snowParticle.png */; };
 		7DAEED7221C9073300363CD1 /* GroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DAEED7121C9073300363CD1 /* GroundView.swift */; };
+		E832217425F67FAC00263E85 /* snow-animation.gif in Resources */ = {isa = PBXBuildFile; fileRef = E832217325F67FAC00263E85 /* snow-animation.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		7DAEED6D21C8F5AF00363CD1 /* SnowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowView.swift; sourceTree = "<group>"; };
 		7DAEED6F21C8FAF800363CD1 /* snowParticle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snowParticle.png; sourceTree = "<group>"; };
 		7DAEED7121C9073300363CD1 /* GroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroundView.swift; sourceTree = "<group>"; };
+		E832217325F67FAC00263E85 /* snow-animation.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "snow-animation.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 		7DAEED5821C8DDB000363CD1 /* SnowSceneWithCoreAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				E832217225F67F6E00263E85 /* Assets */,
 				7DAEED5921C8DDB000363CD1 /* AppDelegate.swift */,
 				7DAEED5B21C8DDB000363CD1 /* ViewController.swift */,
 				7DAEED6B21C8DE4800363CD1 /* GradientView.swift */,
@@ -74,6 +77,14 @@
 				7DAEED6521C8DDC200363CD1 /* Info.plist */,
 			);
 			path = SnowSceneWithCoreAnimation;
+			sourceTree = "<group>";
+		};
+		E832217225F67F6E00263E85 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				E832217325F67FAC00263E85 /* snow-animation.gif */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +148,7 @@
 				7DAEED7021C8FAF800363CD1 /* snowParticle.png in Resources */,
 				7DAEED6421C8DDC200363CD1 /* LaunchScreen.storyboard in Resources */,
 				7DAEED6121C8DDC200363CD1 /* Assets.xcassets in Resources */,
+				E832217425F67FAC00263E85 /* snow-animation.gif in Resources */,
 				7DAEED5F21C8DDB000363CD1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,7 +318,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.srinivas.SnowSceneWithCoreAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.SnowSceneWithCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ios team development profile";
 				SWIFT_VERSION = 4.2;
@@ -326,7 +338,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.srinivas.SnowSceneWithCoreAnimation;
+				PRODUCT_BUNDLE_IDENTIFIER = com.amit.SnowSceneWithCoreAnimation;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "ios team development profile";
 				SWIFT_VERSION = 4.2;
